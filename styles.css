@@ -19,3 +19,9 @@ section {
 .show {
     opacity: 1;
 }
+
+@media (prefers-reduced-motion: no-preference) {
+    .hidden {
+        transition: all 1s;
+    }
+}
